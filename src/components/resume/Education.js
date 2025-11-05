@@ -21,19 +21,19 @@ const Education = () => {
             title="Master of Science"
             subTitle="Kuvempu University(2010-2011)"
             result="75%"
-            des="Completed Master of Science in Information Technology from Kuvempu University with B-grade Marks "
+            des=" Master of Science in Information Technology, Kuvempu University "
           />
           <ResumeCard
             title="Bachelor of Science"
             subTitle="Kuvempu University(2008-2009)"
             result="75%"
-            des="Completed Bachelor of Science in Information Technology from Kuvempu University with B-grade Marks "
+            des=" Bachelor of Science in Information Technology, Kuvempu University "
           />
           <ResumeCard
             title="Diploma in Computer Science"
             subTitle="Dayananda Sagar Polytechnic(1996-2001)"
             result="50%"
-            des="Completed Diploma in Computer Science from Dayananda Sagar Polytechnic"
+            des="Diploma in Computer Science, Dayananda Sagar Polytechnic"
           />
         </div>
       </div>
@@ -59,7 +59,7 @@ const Education = () => {
             title="ITO SVC Delivery Consultant III – B"
             subTitle="HEWLETT PACKARD Global Soft India LTD(2010-2019)"
             result="India"
-            des="Worked as IT L3 Infrastrucuture Administrator until 2015.  After 2015 worked as full time software engineer."
+            des="Worked as L3 Infrastrucuture Engineer until 2015.  After 2015 worked as full time software engineer."
           />
         </div>
       </div>

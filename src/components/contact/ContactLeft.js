@@ -18,14 +18,14 @@ const ContactLeft = () => {
         <p className="text-base text-gray-400 tracking-wide">
           As a passionate Full Stack (MERN) Developer, I build scalable,
           user-focused web applications using MongoDB, Express.js, React, and
-          Node.js, delivering seamless front-to-back solutions with a focus on
-          performance and innovation.
+          Node.js, delivering seamless frontend-to-backend solutions with a
+          focus on performance and innovation.
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
           Phone: <span className="text-lightText">+4917630543219</span>
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
-          Email:{" "}
+          Email:
           <span className="text-lightText">girish.balachari@gmail.com</span>
         </p>
       </div>

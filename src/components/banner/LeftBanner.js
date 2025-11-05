@@ -53,11 +53,13 @@ const LeftBanner = () => {
           I am a Full stack web developer (MERN) | Frontend
           (ReactJS/TypeScript/Lit-Elements)/Backend (NodeJS, ExpressJS, NEXTJS)
           role and related to the technology that is JavaScript, TypeScript,
-          React.Js, Node.Js, Express.Js, Next.Js CRUD Database (MongoDB, SQLITE,
-          MySQL, PostgreSQL) and building AI-agent using Javascript. I am fluent
-          in the English language, whereas, I have basic knowledge of German.
-          Overall, I have 16 years of IT experience and more than 9 years of
-          coding/Software development experience.
+          React.Js, Node.Js, Express.Js, Next.Js CRUD Database (MongoDB,
+          PostgreSQL). I am fluent in the English language, whereas, I have
+          basic knowledge of German. Overall, I have 16 years of IT experience
+          and more than 9 years of coding/Software development experience.
+        </p>
+        <p>
+          MERN Stack: JavaScript/Typescript – MongoDB – Express – React – Node
         </p>
       </div>
       <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between">

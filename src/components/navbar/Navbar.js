@@ -49,8 +49,7 @@ const Navbar = () => {
                   (ReactJS/TypeScript/Lit-Elements)/Backend (NodeJS, ExpressJS,
                   NEXTJS) role and related to the technology that is JavaScript,
                   TypeScript, React.Js, Node.Js, Express.Js, Next.Js CRUD
-                  Database (MongoDB, SQLITE, MySQL, PostgreSQL) and building
-                  AI-agent using Javascript.{" "}
+                  Database (MongoDB, PostgreSQL)
                 </p>
               </div>
               <ul className="flex flex-col gap-4">

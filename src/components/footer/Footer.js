@@ -48,7 +48,7 @@ const Footer = () => {
             <h3 className="text-xl uppercase text-designColor tracking-wider">
               Quick Link
             </h3>
-            <ul className=" flex gap-7 font-titleFont font-medium overflow-hidden py-4 lgl:py-6">
+            <ul className=" flex lgl:gap-8 md:gap-4 xs:gap-2 font-titleFont font-medium overflow-hidden py-4 lgl:py-6">
               <a href="/home" rel="noreferrer">
                 <li>
                   <span className="w-full text-lg hover:text-designColor duration-300 cursor-pointer relative group">
