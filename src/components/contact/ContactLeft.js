@@ -17,7 +17,7 @@ const ContactLeft = () => {
         </p>
         <p className="text-base text-gray-400 tracking-wide">
           As a passionate Full Stack (MERN) Developer, I build scalable,
-          user-focused web applications using MongoDB, Express.js, React, and
+          user-focused web applications using MongoDB, Express.js, React.js, and
           Node.js, delivering seamless frontend-to-backend solutions with a
           focus on performance and innovation.
         </p>

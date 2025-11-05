@@ -49,7 +49,11 @@ const Navbar = () => {
                   (ReactJS/TypeScript/Lit-Elements)/Backend (NodeJS, ExpressJS,
                   NEXTJS) role and related to the technology that is JavaScript,
                   TypeScript, React.Js, Node.Js, Express.Js, Next.Js CRUD
-                  Database (MongoDB, PostgreSQL)
+                  Database (MongoDB, PostgreSQL).
+                </p>
+                <p className="text-sm text-gray-400 mt-6">
+                  MERN Stack: JavaScript/Typescript – MongoDB – Express – React
+                  – Node
                 </p>
               </div>
               <ul className="flex flex-col gap-4">
