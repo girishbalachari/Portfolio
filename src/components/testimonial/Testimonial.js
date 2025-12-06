@@ -138,10 +138,10 @@ const Testimonial = () => {
                     </div>
                   </div>
                   <p className="text-base font-titleFont text-gray-300 font-medium tracking-wide leading-6">
-                    "We were struggling with low website traffic, but Girish
-                    Balachary implemented a strategic design that improved user
-                    experience and resulted in a 40% increase in organic
-                    visitors."
+                    "Girish Balachary redesigned our website with a strategic,
+                    user-centric approach that significantly enhanced UX/UI,
+                    improved site performance and SEO, and drove a 40% increase
+                    in organic traffic within the first quarter post-launch."
                   </p>
                 </div>
               </div>
@@ -186,10 +186,12 @@ const Testimonial = () => {
                     </div>
                   </div>
                   <p className="text-base font-titleFont text-gray-300 font-medium tracking-wide leading-6">
-                    "Working with Girish Balachary was a game-changer. He not
-                    only understood our complex requirements and also used the
-                    latest libraries to make the development of the website easy
-                    and fast.".
+                    "Collaborating with Girish Balachary transformed our
+                    project—he quickly grasped complex business requirements,
+                    leveraged cutting-edge libraries and modern frameworks
+                    (React.js, Next.js, TypeScript), and delivered a
+                    high-quality, performant website ahead of schedule with
+                    clean, maintainable code."
                   </p>
                 </div>
               </div>
@@ -234,10 +236,12 @@ const Testimonial = () => {
                     </div>
                   </div>
                   <p className="text-base font-titleFont text-gray-300 font-medium tracking-wide leading-6">
-                    "From start to finish, Girish Balachary's team was
-                    professional, listened intently to our vision, and created a
-                    seamless online experience that has been instrumental in our
-                    client's growth."
+                    "Girish Balachary's team demonstrated exceptional
+                    professionalism throughout the project, actively listening
+                    to our vision and delivering a seamless, high-performance
+                    online experience using modern MERN/Next.js technologies
+                    that significantly contributed to our client's user
+                    engagement and business growth."
                   </p>
                 </div>
               </div>

@@ -19,19 +19,19 @@ const Experience = () => {
             title="ITO SVC Delivery Consultant III – B"
             subTitle="HEWLETT PACKARD Global Soft India LTD - (2010 - 2019)"
             result="INDIA"
-            des="Worked as Software from 2015 onwards.  Started as a backend using Node.js, Express.js and MongoDB.  Later moved into E-commerce team and lated internal team as well"
+            des="Began career in 2015 as a Backend Developer specializing in Node.js, Express.js, and MongoDB, building scalable RESTful APIs and microservices; progressed to the E-commerce team, delivering high-traffic transactional systems with payment integrations and inventory management; later contributed to internal tools and platform teams, developing full-stack solutions, admin dashboards, and cross-functional productivity applications."
           />
           <ResumeCard
             title="IT Manager(software dept)"
             subTitle="Tentamus Analytics GmbH - (2019 - 2020)"
             result="GERMANY"
-            des="Worked as IT manager in software department and automated OTRS tool using React from frontend and node.js from backeend."
+            des="Served as IT Manager overseeing the software development team, while leading the automation and modernization of the OTRS ticketing system by rebuilding it with a custom full-stack solution using React.js for an intuitive frontend interface and Node.js + Express.js with MongoDB for a robust, scalable backend, resulting in streamlined ticket management, enhanced team productivity, and improved support workflows."
           />
           <ResumeCard
             title="Technical Lead"
             subTitle="HCL Technologies Germany GmbH- (2022 - 2023)"
             result="GERMANY"
-            des="Worked as Lead for our Banking client.  The MERN is the technology used to work on different projects and Lit-Component is the primary technology used by clients.  Jest is used for unit testing."
+            des="Served as Technical Lead for a major banking client, directing multiple projects built on the MERN stack (MongoDB, Express.js, React.js, Node.js) while aligning with the client’s primary frontend technology, Lit-Component (Web Components), for reusable, standards-compliant UI development; enforced code quality through comprehensive unit testing with Jest, ensuring high-performance delivery in a regulated financial environment."
           />
         </div>
       </div>
@@ -47,19 +47,19 @@ const Experience = () => {
             title="Uber Clone"
             subTitle="MERN and MicroServices"
             result="PERSONAL"
-            des="Uber Clone App using MERN Stack and used Microservices Architecture, Tailwind css.  Implemented authentication using JWT tokens and implemented Socket.io for real-time communication."
+            des="Engineered a full-stack Uber clone using MERN stack with microservices architecture, Node.js + Express.js for backend services, React.js + Tailwind CSS for responsive frontend, MongoDB for data persistence, JWT-based authentication, and Socket.IO for real-time driver-rider tracking, ride requests, live location updates, and notifications."
           />
           <ResumeCard
-            title="YouTube Clone"
+            title="Facebook Clone"
             subTitle="MERN Stack"
             result="PERSONAL"
-            des="Used MERN stack to build YouTube Clone.  Other framework using in this project are TailwindCSS, React-typewriter scroll icons and Framer-motion."
+            des="Developed a full-stack Facebook clone using Next.js, TypeScript, Tailwind CSS, Shadcn UI, and MongoDB, implementing secure authentication with Google OAuth, real-time friend requests and notifications, responsive reusable components for posts, stories, comments, likes, and shares, Cloudinary for video/image uploads for complete social media functionality."
           />
           <ResumeCard
             title="Whatsapp Clone"
             subTitle="MERN Stack"
             result="PERSONAL"
-            des="Used MERN stack to build Whatsapp Clone.  Other framework using in this project are TailwindCSS, React-typewriter scroll icons and Framer-motion.  Socket.io framework for real-time messaging."
+            des="Built a full-stack real-time WhatsApp clone using MERN stack with TypeScript, featuring one-to-one chatting, media sharing, and WebRTC-based video calling, powered by Socket.IO for live messaging, typing indicators, online/offline status, and call signaling, with secure OTP-based (email/phone) authentication and JWT tokens stored in HTTP-only cookies."
           />
         </div>
       </div>

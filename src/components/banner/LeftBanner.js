@@ -34,14 +34,14 @@ const LeftBanner = () => {
   return (
     <div className="w-full lgl:w-1/2 flex flex-col gap-20">
       <div className="flex flex-col gap-6">
-        <h4 className="text-lg font-normal">
+        <h4 className="text-2xl font-normal">
           Thanks for visiting my portfolio.
         </h4>
         <h1 className="text-5xl font-bold text-white">
           Hi, I'm{" "}
           <span className="text-designColor capitalize">GIRISH BALACHARY</span>
         </h1>
-        <h2 className="text-4xl font-bold text-white">
+        <h2 className="text-3xl font-bold text-white">
           a <span>{text}</span>
           <Cursor
             cursorBlinking="false"
@@ -49,16 +49,20 @@ const LeftBanner = () => {
             cursorColor="#ff014f"
           />
         </h2>
-        <p className="text-base font-bodyFont leading-6 tracking-wide">
-          I am a Full stack web developer (MERN) | Frontend
-          (ReactJS/TypeScript/Lit-Elements)/Backend (NodeJS, ExpressJS, NEXTJS)
-          role and related to the technology that is JavaScript, TypeScript,
-          React.Js, Node.Js, Express.Js, Next.Js CRUD Database (MongoDB,
-          PostgreSQL). I am fluent in the English language, whereas, I have
-          basic knowledge of German. Overall, I have 16 years of IT experience
-          and more than 9 years of coding/Software development experience.
+        <p className="text-[14px] font-bodyFont leading-6 tracking-wide">
+          Results-driven Full-Stack Web Developer with 16+ years of IT
+          experience and 9+ years of hands-on software development expertise
+          specializing in MERN stack (MongoDB, Express.js, React.js, Node.js)
+          and modern JavaScript ecosystems including TypeScript, Next.js, Redux,
+          and Lit-Elements. Proficient in building scalable web applications
+          with CRUD operations using MongoDB and PostgreSQL, implementing
+          RESTful APIs, server-side rendering, and responsive frontend with
+          Tailwind CSS and component libraries. Demonstrated strength in
+          end-to-end project delivery, from architecture design to production
+          deployment, with excellent English communication skills and basic
+          proficiency in German.
         </p>
-        <p>
+        <p className="text-[14px]">
           MERN Stack: JavaScript/Typescript – MongoDB – Express – React – Node
         </p>
       </div>
@@ -67,7 +71,7 @@ const LeftBanner = () => {
           <h2 className="text-base uppercase font-titleFont mb-4">
             Find me in
           </h2>
-          <div className="flex gap-2">
+          <div className="flex gap-3">
             <span className="bannerIcon">
               <a
                 href="https://www.linkedin.com/in/girish-balachary-a4982814"
@@ -114,7 +118,7 @@ const LeftBanner = () => {
           <h2 className="text-base uppercase font-titleFont mb-4">
             Best Skill on
           </h2>
-          <div className="flex gap-4">
+          <div className="flex gap-3">
             <span className="bannerIcon">
               <a
                 href="https://tailwindcss.com/"

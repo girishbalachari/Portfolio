@@ -17,32 +17,32 @@ const Features = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-20">
         <Card
           title="Frontend Development"
-          des="HTML version 5 CSS(TailwindCSS) Version 3 JavaScript ReactJS only Functional components NextJS Typescript"
+          des="Expert in modern frontend development using HTML5, CSS3 with Tailwind CSS, JavaScript (ES6+), React.js (functional components with Hooks), Next.js (App Router & Server Components), and TypeScript for building performant, type-safe, and responsive web applications."
           icon={<FaBars />}
         />
         <Card
           title="Backend Development"
-          des="NodeJS ExpressJS and NextJS only backend no python, Java or C#.  MongoDB for CRUD operations and no DB administration"
+          des="Proficient in backend development using Node.js, Express.js, and Next.js (API routes & server actions) to build scalable RESTful APIs and full-stack applications, with extensive experience in MongoDB for CRUD operations, schema design, aggregation pipelines, and indexes—no Python, Java, C#, or database administration involved."
           icon={<SiProgress />}
         />
         <Card
           title="Full stack Development"
-          des="MERN Stack using ReactJS for frontend and NodeJS ExpressJS for backend and MongoDB for DB"
+          des="Specialized in MERN stack (MongoDB, Express.js, React.js, Node.js) development, delivering end-to-end web applications with React.js functional components for responsive frontends, Node.js + Express.js for robust RESTful APIs and server-side logic, and MongoDB for efficient CRUD operations, schema modeling, and scalable data management."
           icon={<AiFillAppstore />}
         />
         <Card
           title="AI agent Development"
-          des="AI agent development using openAI API and Langchain for backend and ReactJS for frontend and MongoDB for DB"
+          des="Experienced in building intelligent AI agents using OpenAI API, LangChain/LangGraph for agent orchestration, prompt engineering, memory management, and tool integration on the backend, with React.js and TypeScript for interactive frontend and MongoDB for storing conversation history and user preferences."
           icon={<SiFrontendmentor />}
         />
         <Card
           title="Progressive Web Apps"
-          des="Web applications built with web technologies that provide an app-like, platform-specific experience on different operating systems"
+          des="Specialized in developing Progressive Web Apps (PWAs) using React.js, Next.js, and Workbox, delivering native app-like experiences with offline functionality, push notifications, background sync, and installable home-screen icons across all platforms and operating systems."
           icon={<SiAntdesign />}
         />
         <Card
           title="Cross-Platform"
-          des="Cross-platform development means building a single application using a shared codebase that runs on multiple OS platforms"
+          des="Experienced in cross-platform application development using React Native and Expo, enabling a single TypeScript/JavaScript codebase to build high-performance native mobile apps for iOS, Android, and web platforms with consistent functionality and UI."
           icon={<FaGlobe />}
         />
       </div>

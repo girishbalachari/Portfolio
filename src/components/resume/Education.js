@@ -7,10 +7,10 @@ const Education = () => {
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1, transition: { duration: 0.5 } }}
-      className="w-full flex flex-col lgl:flex-row gap-10 lgl:gap-20"
+      className="w-full flex flex-col lgl:flex-row gap-10 lgl:gap-20 font-titleFont py-12"
     >
       <div>
-        <div className=" px-4 py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
+        <div className=" px-4 py-3 lgl:py-8 font-titleFont flex flex-col gap-4">
           <p className="text-sm text-designColor tracking-[4px]">1984 - 2001</p>
           <h2 className="text-3xl md:text-4xl font-bold">
             Education Qualification
@@ -21,24 +21,24 @@ const Education = () => {
             title="Master of Science"
             subTitle="Kuvempu University(2010-2011)"
             result="75%"
-            des=" Master of Science in Information Technology, Kuvempu University "
+            des=" Master of Science in Information Technology – Kuvempu University, Karnataka, India "
           />
           <ResumeCard
             title="Bachelor of Science"
             subTitle="Kuvempu University(2008-2009)"
             result="75%"
-            des=" Bachelor of Science in Information Technology, Kuvempu University "
+            des=" Bachelor of Science in Information Technology – Kuvempu University, Karnataka, India "
           />
           <ResumeCard
             title="Diploma in Computer Science"
             subTitle="Dayananda Sagar Polytechnic(1996-2001)"
             result="50%"
-            des="Diploma in Computer Science, Dayananda Sagar Polytechnic"
+            des=" Diploma in Computer Science – Dayananda Sagar Polytechnic, Karnataka, India "
           />
         </div>
       </div>
       <div>
-        <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
+        <div className="py-3 px-4 lgl:py-12 font-titleFont flex flex-col gap-4">
           <p className="text-sm text-designColor tracking-[4px]">2005- 2025</p>
           <h2 className="text-3xl md:text-4xl font-bold">Job Experience</h2>
         </div>
@@ -47,19 +47,19 @@ const Education = () => {
             title="Technical Lead"
             subTitle="HCL Technologies Germany GmbH(2022-2023)"
             result="Germany"
-            des="Worked as Technical Lead to Banking client as contactor.  Worked on MERN stack projects."
+            des="Led secure MERN stack (React.js + TypeScript, Node.js) projects for banking client, ensuring regulatory compliance and robust authentication."
           />
           <ResumeCard
             title="IT Manager(software dept)"
             subTitle="Tentamus Analytics GmbH(2019-2020)"
             result="Germany"
-            des="Worked as IT Manager for Software department and automated OTRS ticketing tool using React and Node.js"
+            des="Led automation of OTRS ticketing system using React.js frontend and Node.js backend, improving team efficiency and ticket resolution speed."
           />
           <ResumeCard
             title="ITO SVC Delivery Consultant III – B"
             subTitle="HEWLETT PACKARD Global Soft India LTD(2010-2019)"
             result="India"
-            des="Worked as L3 Infrastrucuture Engineer until 2015.  After 2015 worked as full time software engineer."
+            des="Advanced from L3 Infrastructure Engineer role to full-time Software Engineer in 2015, specializing in MERN stack development."
           />
         </div>
       </div>

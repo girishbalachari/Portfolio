@@ -21,7 +21,7 @@ const Card = ({ title, des, icon }) => {
             <h2 className="text-xl md:text-2xl font-titleFont font-bold text-gray-300">
               {title}
             </h2>
-            <p className="base">{des}</p>
+            <p className="base text-[11px]">{des}</p>
           </div>
         </div>
       </div>

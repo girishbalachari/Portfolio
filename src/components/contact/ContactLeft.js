@@ -16,10 +16,12 @@ const ContactLeft = () => {
           Full Stack (MERN) Developer
         </p>
         <p className="text-base text-gray-400 tracking-wide">
-          As a passionate Full Stack (MERN) Developer, I build scalable,
-          user-focused web applications using MongoDB, Express.js, React.js, and
-          Node.js, delivering seamless frontend-to-backend solutions with a
-          focus on performance and innovation.
+          Passionate Full-Stack MERN Developer with proven expertise in
+          designing and delivering scalable, user-centric web applications using
+          MongoDB, Express.js, React.js (functional components & hooks), and
+          Node.js, specializing in end-to-end solutions that prioritize
+          performance optimization, clean architecture, and innovative features
+          from database modeling to responsive frontend experiences.
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
           Phone: <span className="text-lightText">+4917630543219</span>

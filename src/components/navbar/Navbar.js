@@ -45,11 +45,11 @@ const Navbar = () => {
               <div>
                 <img className="w-32" src={logo} alt="logo" />
                 <p className="text-sm text-gray-400 mt-6">
-                  I am a Full stack web developer (MERN) | Frontend
-                  (ReactJS/TypeScript/Lit-Elements)/Backend (NodeJS, ExpressJS,
-                  NEXTJS) role and related to the technology that is JavaScript,
-                  TypeScript, React.Js, Node.Js, Express.Js, Next.Js CRUD
-                  Database (MongoDB, PostgreSQL).
+                  Experienced Full-Stack Web Developer specializing in MERN
+                  stack with expertise in React.js, TypeScript, Lit-Element,
+                  Node.js, Express.js, Next.js, JavaScript, MongoDB, and
+                  PostgreSQL for building scalable, modern web applications with
+                  seamless CRUD operations and responsive frontend.
                 </p>
                 <p className="text-sm text-gray-400 mt-6">
                   MERN Stack: JavaScript/Typescript – MongoDB – Express – React
