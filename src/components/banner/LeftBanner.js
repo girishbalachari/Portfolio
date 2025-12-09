@@ -32,16 +32,16 @@ const LeftBanner = () => {
     delaySpeed: 2000,
   });
   return (
-    <div className="w-full lgl:w-1/2 flex flex-col gap-20">
+    <div className="w-full lgl:w-1/2 flex flex-col justify-between gap-20">
       <div className="flex flex-col gap-6">
         <h4 className="text-2xl font-normal">
           Thanks for visiting my portfolio.
         </h4>
-        <h1 className="text-5xl font-bold text-white">
+        <h1 className="text-3xl lgl:text-5xl font-bold text-white">
           Hi, I'm{" "}
           <span className="text-designColor capitalize">GIRISH BALACHARY</span>
         </h1>
-        <h2 className="text-3xl font-bold text-white">
+        <h2 className="text-2xl lgl:text-4xl font-bold text-white">
           a <span>{text}</span>
           <Cursor
             cursorBlinking="false"
@@ -49,7 +49,7 @@ const LeftBanner = () => {
             cursorColor="#ff014f"
           />
         </h2>
-        <p className="text-[14px] font-bodyFont leading-6 tracking-wide">
+        <p className="text-[12px] font-bodyFont leading-6 tracking-wide">
           Results-driven Full-Stack Web Developer with 16+ years of IT
           experience and 9+ years of hands-on software development expertise
           specializing in MERN stack (MongoDB, Express.js, React.js, Node.js)
@@ -62,7 +62,7 @@ const LeftBanner = () => {
           deployment, with excellent English communication skills and basic
           proficiency in German.
         </p>
-        <p className="text-[14px]">
+        <p className="text-[12px]">
           MERN Stack: JavaScript/Typescript – MongoDB – Express – React – Node
         </p>
       </div>

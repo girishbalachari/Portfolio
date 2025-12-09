@@ -17,7 +17,7 @@ const Navbar = () => {
         <ul className="hidden mdl:inline-flex items-center gap-6 lg:gap-10">
           {navLinksdata.map(({ _id, title, link }) => (
             <li
-              className="text-base front-normal text-gray-400 tracking-wide cursor-pointer hover:text-designColor duration-300"
+              className="text-base font-normal text-gray-400 tracking-wide cursor-pointer hover:text-designColor duration-300"
               key={_id}
             >
               <Link
@@ -41,17 +41,17 @@ const Navbar = () => {
         </span>
         {showMenu && (
           <div className="w-[80%] h-screen overflow-y-scroll absolute top-0 left-0 bg-gray-900 p-4 scrollbar-hide">
-            <div className="flex flex-col gap-8 py-2 relative">
+            <div className="flex flex-col gap-6 py-2 relative">
               <div>
                 <img className="w-32" src={logo} alt="logo" />
-                <p className="text-sm text-gray-400 mt-6">
+                <p className="text-[12px] text-gray-400 mt-6">
                   Experienced Full-Stack Web Developer specializing in MERN
                   stack with expertise in React.js, TypeScript, Lit-Element,
                   Node.js, Express.js, Next.js, JavaScript, MongoDB, and
                   PostgreSQL for building scalable, modern web applications with
                   seamless CRUD operations and responsive frontend.
                 </p>
-                <p className="text-sm text-gray-400 mt-6">
+                <p className="text-[12px] text-gray-400 mt-6">
                   MERN Stack: JavaScript/Typescript – MongoDB – Express – React
                   – Node
                 </p>
@@ -77,7 +77,7 @@ const Navbar = () => {
                 ))}
               </ul>
               <div className="flex flex-col gap-4">
-                <h2 className="text-base uppercase font-titleFont mb-4">
+                <h2 className="text-base uppercase font-titleFont mb-2">
                   Find me in
                 </h2>
                 <div className="flex gap-4">

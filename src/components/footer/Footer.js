@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="w-full lgl:py-6 py-4 h-auto border-b-[1px] border-b-black flex flex-col lgl:flex-row items-center justify-center gap-4">
           <div className="w-full h-full flex gap-9">
             <img className="w-20" src={logo} alt="logo" />
-            <div className="flex gap-5">
+            <div className="flex gap-5 xs:gap-3">
               <span className="bannerIcon">
                 <a
                   href="https://www.facebook.com/girishbalachari"
@@ -48,7 +48,7 @@ const Footer = () => {
             <h3 className="text-xl uppercase text-designColor tracking-wider">
               Quick Link
             </h3>
-            <ul className=" flex lgl:gap-8 md:gap-4 xs:gap-2 font-titleFont font-medium overflow-hidden py-4 lgl:py-6">
+            <ul className=" flex flex-wrap lgl:gap-8 gap-4 font-titleFont font-medium overflow-hidden py-4 lgl:py-6">
               <a href="/home" rel="noreferrer">
                 <li>
                   <span className="w-full text-lg hover:text-designColor duration-300 cursor-pointer relative group">
