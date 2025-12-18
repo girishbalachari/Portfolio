@@ -34,7 +34,7 @@ const Footer = () => {
               </span>
               <span className="bannerIcon">
                 <a
-                  href="https://www.linkedin.com/in/girish-balachary-a4982814"
+                  href="https://www.linkedin.com/in/girish-balachary"
                   target="_blank"
                   rel="noreferrer"
                   aria-label="LinkedIn"
