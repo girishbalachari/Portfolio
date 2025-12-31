@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import emailjs from "@emailjs/browser"; // Add this import
+import emailjs from "@emailjs/browser";
 import Title from "../layouts/Title";
 import ContactLeft from "./ContactLeft";
 
@@ -16,9 +16,9 @@ const Contact = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
 
   // Replace with YOUR EmailJS credentials
-  const SERVICE_ID = "service_pnjqc5l"; // From EmailJS dashboard
-  const TEMPLATE_ID = "template_2wrqxty"; // From EmailJS dashboard
-  const PUBLIC_KEY = "f64TEo7vs1NjWcaTg"; // From EmailJS dashboard
+  const SERVICE_ID = "service_pnjqc5l";
+  const TEMPLATE_ID = "template_2wrqxty";
+  const PUBLIC_KEY = "f64TEo7vs1NjWcaTg";
 
   const validateEmail = (email) => {
     return String(email)

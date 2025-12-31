@@ -1,6 +1,9 @@
 import React from "react";
 import { contactImg } from "../../assets";
-import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import {
+  SocialIconData,
+  SocialIcon,
+} from "../../components/socialicons/SocialIcon";
 
 const ContactLeft = () => {
   return (
@@ -34,36 +37,14 @@ const ContactLeft = () => {
       <div className="flex flex-col gap-4">
         <h2 className="text-base uppercase font-titleFont mb-4">Find me in</h2>
         <div className="flex gap-4">
-          <span className="bannerIcon">
-            <a
-              href="https://www.facebook.com/girishbalachari"
-              target="_blank"
-              rel="noreferrer"
-              aria-label="FaceBook"
-            >
-              <FaFacebookF />
-            </a>
-          </span>
-          <span className="bannerIcon">
-            <a
-              href="https://www.instagram.com/girishbalachary/"
-              target="_blank"
-              rel="noreferrer"
-              aria-label="instagram"
-            >
-              <FaInstagram />
-            </a>
-          </span>
-          <span className="bannerIcon">
-            <a
-              href="https://www.linkedin.com/in/girish-balachary"
-              target="_blank"
-              rel="noreferrer"
-              aria-label="LinkedIn"
-            >
-              <FaLinkedinIn />
-            </a>
-          </span>
+          {SocialIconData.map((iconData) => (
+            <SocialIcon
+              key={iconData.id}
+              anchorHref={iconData.anchorHref}
+              ariaLabel={iconData.ariaLabel}
+              icon={iconData.icon}
+            />
+          ))}
         </div>
       </div>
     </div>

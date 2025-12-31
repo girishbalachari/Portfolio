@@ -1,7 +1,6 @@
 import React from "react";
 import Title from "../layouts/Title";
-import Card from "./Card";
-import { cardData } from "./CardData";
+import { cardData, Card } from "./CardData";
 
 const Features = () => {
   return (

@@ -1,7 +1,7 @@
 import React from "react";
 import Title from "../layouts/Title";
-import ProjectsCard from "./ProjectsCard";
-import { ProjectCardData } from "./ProjectCardData";
+// import ProjectsCard from "./ProjectsCard";
+import { ProjectCardData, ProjectsCard } from "./ProjectCardData";
 
 const Projects = () => {
   return (
