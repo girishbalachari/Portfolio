@@ -87,7 +87,6 @@ const Contact = () => {
           `Thank you ${formData.username}! Your message has been sent successfully!`
         );
 
-        // Reset form
         setFormData({
           username: "",
           phoneNumber: "",
@@ -97,7 +96,6 @@ const Contact = () => {
         });
         setErrors({});
 
-        // Clear success message after 5 seconds
         setTimeout(() => {
           setSuccessMsg("");
         }, 5000);
@@ -112,7 +110,6 @@ const Contact = () => {
     }
   };
 
-  // Initialize EmailJS when component mounts
   useEffect(() => {
     emailjs.init(PUBLIC_KEY);
   }, []);

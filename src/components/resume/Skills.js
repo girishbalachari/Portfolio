@@ -30,7 +30,7 @@ const Skills = () => {
             </span>
           </div>
           <div className="overflow-x-hidden">
-            <p className="text-sm uppercase font-medium">React</p>
+            <p className="text-sm uppercase font-medium">Reactjs</p>
             <span className="w-full h-2 bgOpacity inline-flex rounded-md mt-2">
               <motion.span
                 initial={{ x: "-100%", opacity: 0 }}

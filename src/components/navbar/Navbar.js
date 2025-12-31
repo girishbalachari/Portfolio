@@ -4,7 +4,7 @@ import { navLinksdata } from "../../constants/index";
 import { Link } from "react-scroll";
 import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
-import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import SocialLinks from "./SocialLinks";
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -76,43 +76,7 @@ const Navbar = () => {
                   </li>
                 ))}
               </ul>
-              <div className="flex flex-col gap-4">
-                <h2 className="text-base uppercase font-titleFont mb-2">
-                  Find me in
-                </h2>
-                <div className="flex gap-4">
-                  <span className="bannerIcon">
-                    <a
-                      href="https://www.facebook.com/girishbalachari"
-                      target="_blank"
-                      rel="noreferrer"
-                      aria-label="FaceBook"
-                    >
-                      <FaFacebookF />
-                    </a>
-                  </span>
-                  <span className="bannerIcon">
-                    <a
-                      href="https://www.instagram.com/girishbalachary/"
-                      target="_blank"
-                      rel="noreferrer"
-                      aria-label="instagram"
-                    >
-                      <FaInstagram />
-                    </a>
-                  </span>
-                  <span className="bannerIcon">
-                    <a
-                      href="https://www.linkedin.com/in/girish-balachary"
-                      target="_blank"
-                      rel="noreferrer"
-                      aria-label="LinkedIn"
-                    >
-                      <FaLinkedinIn />
-                    </a>
-                  </span>
-                </div>
-              </div>
+              <SocialLinks />
               <span
                 onClick={() => setShowMenu(false)}
                 className="absolute top-4 right-4 text-gray-400 hover:text-designColor duration-300 text-2xl cursor-pointer"
