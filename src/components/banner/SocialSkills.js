@@ -21,7 +21,7 @@ const SocialSkills = () => {
         <h2 className="text-base uppercase font-titleFont mb-4">
           Best Skill on
         </h2>
-        <div className="flex gap-3">
+        <div className="flex gap-2">
           {SocialSkillsData.map((skill) => (
             <SocialIcon
               key={skill.id}

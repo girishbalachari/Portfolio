@@ -2,9 +2,9 @@ import React, { useState } from "react";
 import Title from "../layouts/Title";
 import Slider from "react-slick";
 import { HiArrowRight, HiArrowLeft } from "react-icons/hi";
-import Page1 from "./Page1";
-import Page2 from "./Page2";
-import Page3 from "./Page3";
+import TestimonialCard1 from "./TestimonialCard1";
+import TestimonialCard2 from "./TestimonialCard2";
+import TestimonialCard3 from "./TestimonialCard3";
 
 function SampleNextArrow(props) {
   const { onClick } = props;
@@ -95,9 +95,9 @@ const Testimonial = () => {
       </div>
       <div className="max-w-6xl mx-auto">
         <Slider {...settings}>
-          <Page1 />
-          <Page2 />
-          <Page3 />
+          <TestimonialCard1 />
+          <TestimonialCard2 />
+          <TestimonialCard3 />
         </Slider>
       </div>
     </section>

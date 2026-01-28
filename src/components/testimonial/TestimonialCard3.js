@@ -2,7 +2,7 @@ import React from "react";
 import { testimonialThree, quote } from "../../assets";
 import { RiStarFill } from "react-icons/ri";
 
-const Page3 = () => {
+const TestimonialCard3 = () => {
   return (
     <div className="w-full">
       <div className="w-full h-auto lgl:h-[500px] flex flex-col lgl:flex-row justify-between">
@@ -56,4 +56,4 @@ const Page3 = () => {
   );
 };
 
-export default Page3;
+export default TestimonialCard3;

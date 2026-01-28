@@ -1,24 +1,24 @@
 import React from "react";
-import { testimonialTwo, quote } from "../../assets";
+import { testimonialOne, quote } from "../../assets";
 import { RiStarFill } from "react-icons/ri";
 
-const Page1 = () => {
+const TestimonialCard2 = () => {
   return (
     <div className="w-full">
       <div className="w-full h-auto lgl:h-[500px] flex flex-col lgl:flex-row justify-between">
         <div className="w-full lgl:w-[35%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] p-8 rounded-lg shadow-shadowOne flex flex-col md:flex-row lgl:flex-col gap-8 justify-center md:justify-start lgl:justify-center">
           <img
             className="h-72 md:h-32 lgl:h-72 rounded-lg object-cover"
-            src={testimonialTwo}
+            src={testimonialOne}
             alt="testimonial"
           />
           <div className="w-full flex flex-col justify-end">
             <p className="text-sm uppercase text-designColor tracking-wider mb-2">
-              HCL Technologies Germany GmbH
+              Tentamus Analytics GmbH
             </p>
-            <h3 className="text-2xl font-bold">Pawan Kumar</h3>
+            <h3 className="text-2xl font-bold">Andreas Scholz</h3>
             <p className="text-base tracking-wide text-gray-300">
-              General Manager
+              Software Manager
             </p>
           </div>
         </div>
@@ -28,10 +28,10 @@ const Page1 = () => {
             <div className="flex flex-col justify-between lgl:items-center py-6 border-b-2 border-b-gray-900">
               <div>
                 <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
-                  Client Manager
+                  Software Developer
                 </h3>
                 <p className="text-base text-gray-400 mt-3">
-                  Via Upwork - May 14, 2019 - Oct 30, 2023
+                  Via Upwork - Mar 4, 2015 - Aug 30, 2018
                 </p>
               </div>
               <div className="text-yellow-500 flex gap-2 mt-2">
@@ -43,10 +43,11 @@ const Page1 = () => {
               </div>
             </div>
             <p className="text-base font-titleFont text-gray-300 font-medium tracking-wide leading-6">
-              "Girish Balachary redesigned our website with a strategic,
-              user-centric approach that significantly enhanced UX/UI, improved
-              site performance and SEO, and drove a 40% increase in organic
-              traffic within the first quarter post-launch."
+              "Collaborating with Girish Balachary transformed our project—he
+              quickly grasped complex business requirements, leveraged
+              cutting-edge libraries and modern frameworks (React.js, Next.js,
+              TypeScript), and delivered a high-quality, performant website
+              ahead of schedule with clean, maintainable code."
             </p>
           </div>
         </div>
@@ -55,4 +56,4 @@ const Page1 = () => {
   );
 };
 
-export default Page1;
+export default TestimonialCard2;
