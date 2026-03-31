@@ -10,8 +10,8 @@ import {
 export const ProjectCardData = [
   {
     id: 1,
-    title: "Book Store App",
-    des: " Developed a full-stack e-commerce Book Store application using the MERN stack (MongoDB, Express.js, React.js, Node.js) with Tailwind CSS for responsive UI, Redux Toolkit + RTK Query for efficient state management and data fetching, Mongoose for schema-based modeling, and JWT-based authentication for secure user login, cart management, and order processing.",
+    title: "Interview Prep using AI",
+    des: " Developed a smart AI-powered Interview Preparation App using MERN stack (MongoDB, Express.js, React.js, Node.js) integrated with Google Gemini API. Features include JWT authentication, role-based interview question generation, AI-driven Q&A, dynamic concept explanations, and pinning important questions.",
     src: projectThree,
   },
   {

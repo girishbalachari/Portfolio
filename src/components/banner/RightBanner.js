@@ -6,6 +6,7 @@ const RightBanner = () => {
     <div className="w-1/2 lgl:w-1/2 flex justify-center items-center relative">
       <img
         src={bannerImg}
+        fetchpriority="high"
         alt="Banner"
         className="w-[300px] h-[400px] lgl:w-[500px] lgl:h-[680px] z-10"
       />
