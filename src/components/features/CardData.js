@@ -27,7 +27,7 @@ export const cardData = [
     id: 4,
     icon: <SiFrontendmentor />,
     title: "AI agent Development",
-    des: "Experienced in building intelligent AI agents using OpenAI API, LangChain/LangGraph for agent orchestration, prompt engineering, memory management, and tool integration on the backend, with React.js and TypeScript for interactive frontend and MongoDB for storing conversation history and user preferences.",
+    des: "Experienced in building intelligent AI agents using OpenAI API, prompt engineering, memory management, and tool integration on the backend, with React.js and TypeScript for interactive frontend and MongoDB for storing conversation history and user preferences.",
   },
   {
     id: 5,

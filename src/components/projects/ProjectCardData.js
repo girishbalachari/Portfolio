@@ -10,7 +10,7 @@ import {
 export const ProjectCardData = [
   {
     id: 1,
-    title: "Interview Prep using AI",
+    title: "Interview Prep App using Gen-AI",
     des: " Developed a smart AI-powered Interview Preparation App using MERN stack (MongoDB, Express.js, React.js, Node.js) integrated with Google Gemini API. Features include JWT authentication, role-based interview question generation, AI-driven Q&A, dynamic concept explanations, and pinning important questions.",
     src: projectThree,
   },
@@ -22,8 +22,8 @@ export const ProjectCardData = [
   },
   {
     id: 3,
-    title: "Restaurant App",
-    des: "Developed a full-stack restaurant management and online ordering application using MERN stack with TypeScript, featuring Zustand for lightweight global state management, Stripe integration for secure payment processing, responsive UI with Tailwind CSS, and SEO-optimized server-side rendering via Next.js for improved discoverability and performance.",
+    title: "Job Prep using Gen-AI",
+    des: "Developed a production-ready MERN stack AI-powered job preparation platform. Users can upload resumes, analyze job descriptions, detect skill gaps, and generate AI interview questions and ATS-optimized resumes using Gemini AI. Features include secure JWT authentication with token blacklisting, resume parsing, and intelligent skill gap analysis.",
     src: projectTwo,
   },
   {
@@ -40,8 +40,8 @@ export const ProjectCardData = [
   },
   {
     id: 6,
-    title: "Grocery Delivery App",
-    des: "Developed a full-stack Grocery Delivery platform using MERN stack with TypeScript and Tailwind CSS, featuring a comprehensive admin panel for product and inventory management, dynamic cart system with real-time updates, secure Stripe checkout integration, order tracking, and a fully responsive UI for seamless customer and delivery partner experience.",
+    title: "Website Builder App using Gen-AI",
+    des: "Developed a Gen-AI powered website builder using the MERN stack. Users describe their idea, and the AI instantly generates a fully functional website with one-click deployment. The platform features a credit-based system, Stripe payments, premium animations, and smooth UI. It uses OpenRouter for AI generation and Firebase for authentication.",
     src: projectSix,
   },
 ];
