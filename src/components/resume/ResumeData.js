@@ -17,7 +17,7 @@ export const EducationData = [
     id: 3,
     title: "Diploma in Computer Science",
     subTitle: "Dayananda Sagar Polytechnic(1996-2001)",
-    result: "75%",
+    result: "55%",
     des: " Diploma in Computer Science, Dayananda Sagar Polytechnic, Karnataka, India ",
   },
 ];
@@ -49,7 +49,7 @@ export const JobData = [
 export const JobExperience = [
   {
     id: 1,
-    title: "ITO SVC Delivery Consultant III – B",
+    title: "ITO SVC Delivery Consultant III - B",
     subTitle: "HEWLETT PACKARD Global Soft India LTD - (2010 - 2019)",
     result: "INDIA",
     des: "Started in 2015 as Backend Developer (Node.js, Express.js, MongoDB), advanced to E-commerce and internal tools teams, delivering full-stack solutions with payment integrations, admin dashboards, and cross-functional productivity applications.",
@@ -111,10 +111,10 @@ export const Itengineer = [
   },
   {
     id: 3,
-    title: "ITO SVC Delivery Consultant III – B",
+    title: "ITO SVC Delivery Consultant III - B",
     subTitle: "HEWLETT PACKARD Global Soft India LTD - (2010 - 2019)",
     result: "INDIA",
-    des: "VMware/Windows/Cloud Administrator until 2015 → Full-time Full-Stack Software Engineer (2015–Present) specializing in MERN, TypeScript, Next.js, and scalable web applications.",
+    des: "VMware/Windows/Cloud Administrator until 2015 → Full-time Full-Stack Software Engineer (2015-Present) specializing in MERN, TypeScript, Next.js, and scalable web applications.",
   },
 ];
 

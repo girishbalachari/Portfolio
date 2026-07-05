@@ -39,15 +39,15 @@ const LeftBanner = () => {
           specializing in MERN stack (MongoDB, Express.js, React.js, Node.js)
           and modern JavaScript ecosystems including TypeScript, Next.js, Redux,
           and Lit-Elements. Proficient in building scalable web applications
-          with CRUD operations using MongoDB and PostgreSQL, implementing
-          RESTful APIs, server-side rendering, and responsive frontend with
-          Tailwind CSS and component libraries. Demonstrated strength in
-          end-to-end project delivery, from architecture design to production
-          deployment, with excellent English communication skills and basic
-          proficiency in German.
+          with CRUD operations using MongoDB, implementing RESTful APIs,
+          server-side rendering, and responsive frontend with Tailwind CSS and
+          component libraries. Demonstrated strength in end-to-end project
+          delivery, from architecture design to production deployment, with
+          excellent English communication skills and basic proficiency in
+          German.
         </p>
         <p className="text-[12px]">
-          MERN Stack: JavaScript/Typescript – MongoDB – Express – React – Node
+          MERN Stack : JavaScript/Typescript – MongoDB – Express – React – Node
         </p>
       </div>
       <SocialSkills />

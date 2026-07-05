@@ -10,7 +10,7 @@ import {
   SiMongodb,
   SiExpress,
   SiReact,
-  SiNextdotjs,
+  // SiNextdotjs,
   SiTypescript,
 } from "react-icons/si";
 
@@ -80,12 +80,12 @@ export const SocialSkillsData = [
     ariaLabel: "TypeScript",
     icon: <SiTypescript />,
   },
-  {
-    id: 7,
-    anchorHref: "https://nextjs.org/",
-    ariaLabel: "NextJS",
-    icon: <SiNextdotjs />,
-  },
+  // {
+  //   id: 7,
+  //   anchorHref: "https://nextjs.org/",
+  //   ariaLabel: "NextJS",
+  //   icon: <SiNextdotjs />,
+  // },
 ];
 
 export const SocialIcon = ({ anchorHref, ariaLabel, icon }) => {

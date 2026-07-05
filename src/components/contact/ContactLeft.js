@@ -27,7 +27,7 @@ const ContactLeft = () => {
           from database modeling to responsive frontend experiences.
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
-          Phone: <span className="text-lightText">+4917630543219</span>
+          Phone: <span className="text-lightText">+919606596015</span>
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
           Email:

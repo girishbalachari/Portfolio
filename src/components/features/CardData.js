@@ -15,7 +15,7 @@ export const cardData = [
     id: 2,
     icon: <SiProgress />,
     title: "Backend Development",
-    des: "Proficient in backend development using Node.js, Express.js, and Next.js (API routes & server actions) to build scalable RESTful APIs and full-stack applications, with extensive experience in MongoDB for CRUD operations, schema design, aggregation pipelines, and indexes—no Python, Java, C#, or database administration involved.",
+    des: "Proficient in backend development using Node.js, Express.js (API routes & server actions) to build scalable RESTful APIs and full-stack applications, with extensive experience in MongoDB for CRUD operations, schema design, aggregation pipelines, and indexes—no Python, Java, C#, or database administration involved.",
   },
   {
     id: 3,
@@ -33,13 +33,13 @@ export const cardData = [
     id: 5,
     icon: <SiAntdesign />,
     title: "Progressive Web Apps",
-    des: "Specialized in developing Progressive Web Apps (PWAs) using React.js, Next.js, and Workbox, delivering native app-like experiences with offline functionality, push notifications, background sync, and installable home-screen icons across all platforms and operating systems.",
+    des: "Specialized in developing Progressive Web Apps (PWAs) using React.js and TypeScript, delivering native app-like experiences with offline functionality, push notifications, background sync, and installable home-screen icons across all platforms and operating systems.",
   },
   {
     id: 6,
     icon: <FaGlobe />,
     title: "Cross-Platform",
-    des: "Experienced in cross-platform application development using React Native and Expo, enabling a single TypeScript/JavaScript codebase to build high-performance native mobile apps for iOS, Android, and web platforms with consistent functionality and UI.",
+    des: "Experienced in cross-platform application development using React and Expo, enabling a single TypeScript/JavaScript codebase to build high-performance native mobile apps for iOS, Android, and web platforms with consistent functionality and UI.",
   },
 ];
 

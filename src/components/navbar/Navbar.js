@@ -47,9 +47,9 @@ const Navbar = () => {
                 <p className="text-[12px] text-gray-400 mt-6">
                   Experienced Full-Stack Web Developer specializing in MERN
                   stack with expertise in React.js, TypeScript, Lit-Element,
-                  Node.js, Express.js, Next.js, JavaScript, MongoDB, and
-                  PostgreSQL for building scalable, modern web applications with
-                  seamless CRUD operations and responsive frontend.
+                  Node.js, Express.js, Next.js, JavaScript, MongoDB for building
+                  scalable, modern web applications with seamless CRUD
+                  operations and responsive frontend.
                 </p>
                 <p className="text-[12px] text-gray-400 mt-6">
                   MERN Stack: JavaScript/Typescript – MongoDB – Express – React
