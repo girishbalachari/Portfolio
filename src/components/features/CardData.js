@@ -1,19 +1,20 @@
 import { AiFillAppstore } from "react-icons/ai";
 import { FaGlobe } from "react-icons/fa";
-import { SiProgress, SiAntdesign } from "react-icons/si";
-import { SiFrontendmentor } from "react-icons/si";
-import { FaBars } from "react-icons/fa";
+import { SiAntdesign } from "react-icons/si";
+import { GiArtificialIntelligence } from "react-icons/gi";
+import { SiBackendless } from "react-icons/si";
+import { CgWebsite } from "react-icons/cg";
 
 export const cardData = [
   {
     id: 1,
-    icon: <FaBars />,
+    icon: <CgWebsite />,
     title: "Frontend Development",
     des: "Expert in modern frontend development using HTML5, CSS3 with Tailwind CSS, JavaScript (ES6+), React.js (functional components with Hooks), Next.js (App Router & Server Components), and TypeScript for building performant, type-safe, and responsive web applications.",
   },
   {
     id: 2,
-    icon: <SiProgress />,
+    icon: <SiBackendless />,
     title: "Backend Development",
     des: "Proficient in backend development using Node.js, Express.js (API routes & server actions) to build scalable RESTful APIs and full-stack applications, with extensive experience in MongoDB for CRUD operations, schema design, aggregation pipelines, and indexes—no Python, Java, C#, or database administration involved.",
   },
@@ -25,21 +26,21 @@ export const cardData = [
   },
   {
     id: 4,
-    icon: <SiFrontendmentor />,
-    title: "AI agent Development",
-    des: "Experienced in building intelligent AI agents using OpenAI API, prompt engineering, memory management, and tool integration on the backend, with React.js and TypeScript for interactive frontend and MongoDB for storing conversation history and user preferences.",
+    icon: <GiArtificialIntelligence />,
+    title: "Gen-AI and Multi-AI agents Development",
+    des: "Experienced in building Gen-AI and Multi-Agent AI systems using OpenAI API, advanced prompt engineering, memory management, and tool integration on the backend, with React.js and TypeScript for interactive frontend and MongoDB for storing conversation history and user preferences.",
   },
   {
     id: 5,
     icon: <SiAntdesign />,
-    title: "Progressive Web Apps",
-    des: "Specialized in developing Progressive Web Apps (PWAs) using React.js and TypeScript, delivering native app-like experiences with offline functionality, push notifications, background sync, and installable home-screen icons across all platforms and operating systems.",
+    title: "Progressive and Dynamic Web Apps",
+    des: "Specialized in developing dynamic web applications using React.js and TypeScript, delivering interactive, real-time, and data-driven user experiences with seamless performance, responsive design, state management, and cross-platform compatibility across all devices and operating systems.",
   },
   {
     id: 6,
     icon: <FaGlobe />,
-    title: "Cross-Platform",
-    des: "Experienced in cross-platform application development using React and Expo, enabling a single TypeScript/JavaScript codebase to build high-performance native mobile apps for iOS, Android, and web platforms with consistent functionality and UI.",
+    title: "System Design & Solution Architecture",
+    des: "Experienced in System Design and Solution Architecture for scalable web platforms, defining end-to-end architecture, microservices, API design, data models, and high-performance solutions using React.js, Node.js, and TypeScript to deliver maintainable and efficient enterprise systems.",
   },
 ];
 

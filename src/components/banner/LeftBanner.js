@@ -8,8 +8,12 @@ const LeftBanner = () => {
       "Frontend Developer.",
       "Backend Developer.",
       "MERN Stack Developer.",
-      "Full Stack Web Developer.",
-      "AI-Agent Developer.",
+      "Full Stack Developer.",
+      "Gen-AI Developer.",
+      "Multi-AI Agents Developer.",
+      "System Design.",
+      "System Architecture.",
+      "Solution Architecture.",
     ],
     loop: true,
     typeSpeed: 20,
@@ -34,17 +38,18 @@ const LeftBanner = () => {
           />
         </h2>
         <p className="text-[12px] font-bodyFont leading-6 tracking-wide">
-          Results-driven Full-Stack Web Developer with 16+ years of IT
-          experience and 9+ years of hands-on software development expertise
-          specializing in MERN stack (MongoDB, Express.js, React.js, Node.js)
-          and modern JavaScript ecosystems including TypeScript, Next.js, Redux,
-          and Lit-Elements. Proficient in building scalable web applications
-          with CRUD operations using MongoDB, implementing RESTful APIs,
-          server-side rendering, and responsive frontend with Tailwind CSS and
-          component libraries. Demonstrated strength in end-to-end project
-          delivery, from architecture design to production deployment, with
-          excellent English communication skills and basic proficiency in
-          German.
+          Results-driven Full Stack Developer and System Designer with 16+ years
+          of experience designing and developing scalable web platforms,
+          AI-powered applications, and complex enterprise systems using the MERN
+          stack, React.js, Node.js, and TypeScript. Proven expertise in
+          end-to-end Solution architecture, modern frontend architecture
+          (Next.js, LitElement, Tailwind CSS, Redux), microservices, real-time
+          systems, REST APIs, and cloud-native solutions. Skilled in leading
+          technical design, defining system boundaries, integrating AI
+          capabilities (Open Router, Google Gemini), and delivering
+          high-performance, maintainable platforms with Docker, Kubernetes,
+          CI/CD pipelines, and international experience across Germany and
+          India.
         </p>
         <p className="text-[12px]">
           MERN Stack : JavaScript/Typescript – MongoDB – Express – React – Node

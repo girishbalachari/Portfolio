@@ -45,11 +45,11 @@ const Navbar = () => {
               <div>
                 <img className="w-32" src={logo} alt="logo" />
                 <p className="text-[12px] text-gray-400 mt-6">
-                  Experienced Full-Stack Web Developer specializing in MERN
-                  stack with expertise in React.js, TypeScript, Lit-Element,
-                  Node.js, Express.js, Next.js, JavaScript, MongoDB for building
-                  scalable, modern web applications with seamless CRUD
-                  operations and responsive frontend.
+                  Experienced Full-Stack Web Developer and System Designer
+                  specializing in MERN stack, React.js, TypeScript, Node.js, and
+                  Next.js, with expertise in Solution Architecture for building
+                  scalable, modern web applications and high-performance
+                  responsive systems
                 </p>
                 <p className="text-[12px] text-gray-400 mt-6">
                   MERN Stack: JavaScript/Typescript – MongoDB – Express – React
