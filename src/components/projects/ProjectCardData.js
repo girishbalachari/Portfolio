@@ -22,13 +22,13 @@ export const ProjectCardData = [
   },
   {
     id: 3,
-    title: "Coding and Presentation app using Multi Agents-AI",
+    title: "Coding and Presentation app using Multi-Agent AI",
     des: "Built a production-ready multi-agent AI platform using the MERN stack and microservices architecture, integrating LangGraph, Redis, Docker, AWS S3, and Razorpay. Developed specialized AI agents for coding, web search, and PDF or presentation generation, with Firebase Google authentication, Redis session management, and an API Gateway for service routing.",
     src: projectThree,
   },
   {
     id: 4,
-    title: "Resume review and Mock Interview app using Multi Agents-AI",
+    title: "Resume review and Mock Interview app using Multi-Agent AI",
     des: "Built a Multi-Agent AI Interview Platform using MERN stack, microservices, and LangGraph with specialized agents for resume analysis, career roadmaps, and automated technical or HR interviews. Integrated Redis, Docker, Razorpay, and Firebase, featuring resume scoring, live coding environments, camera access, and downloadable PDF reports for a scalable full-stack solution.",
     src: projectFour,
   },

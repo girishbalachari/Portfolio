@@ -27,7 +27,7 @@ export const cardData = [
   {
     id: 4,
     icon: <GiArtificialIntelligence />,
-    title: "Gen-AI and Multi-AI agents Development",
+    title: "Gen-AI and Multi-Agent AI Development",
     des: "Experienced in building Gen-AI and Multi-Agent AI systems using OpenAI API, advanced prompt engineering, memory management, and tool integration on the backend, with React.js and TypeScript for interactive frontend and MongoDB for storing conversation history and user preferences.",
   },
   {

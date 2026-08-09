@@ -10,7 +10,7 @@ const LeftBanner = () => {
       "MERN Stack Developer.",
       "Full Stack Developer.",
       "Gen-AI Developer.",
-      "Multi-AI Agents Developer.",
+      "Multi-Agent AI Developer.",
       "System Design.",
       "System Architecture.",
       "Solution Architecture.",
